@@ -17,7 +17,7 @@ export function dashboardLoader() {
 
 const Dashboard = () => {
   const { userName } = useLoaderData();
-
+  console.log(userName)
 
   return (
     <div>
