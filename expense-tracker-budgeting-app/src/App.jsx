@@ -2,7 +2,11 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
+//////*routes import starts here!//////
 import Dashboard from "./assets/allPages/Dashboard";
+
+//////*routes import ends here!//////
 
 const router = createBrowserRouter([
   {
