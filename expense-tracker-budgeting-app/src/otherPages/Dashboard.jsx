@@ -8,11 +8,12 @@ import { fetchData } from "../assets/helper"
 
 
 //*Data loader: for fetching datas
-export function loader() {
+export function dashboardLoader() {
   const userName = fetchData("userName");
 
   return { userName };
 }
+
 //*
 
 const Dashboard = () => {
