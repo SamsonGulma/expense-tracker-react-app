@@ -21,8 +21,8 @@ const Dashboard = () => {
 
   return (
     <div>
-      <div>{ userName }</div>
-      Dasadf
+      <div>{userName}</div>
+      dashboard
     </div>
   )
 }
