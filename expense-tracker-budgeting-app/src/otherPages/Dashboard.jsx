@@ -21,7 +21,6 @@ const Dashboard = () => {
 
   return (
     <div>
-      <div>{userName}</div>
       dashboard
     </div>
   )
