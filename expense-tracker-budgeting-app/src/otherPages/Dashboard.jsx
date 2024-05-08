@@ -8,7 +8,7 @@ import { fetchData } from "../assets/helper"
 
 
 //*Data loader: for fetching datas
-export function Loader() {
+export function loader() {
   const userName = fetchData("userName");
 
   return { userName };

@@ -6,7 +6,7 @@ import {
 
 //////*routes import
 
-import Dashboard, {Loader} from "./otherPages/Dashboard";
+import Dashboard, {loader} from "./otherPages/Dashboard";
 import Error from "./otherPages/Error";
 
 
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Dashboard />,
-    loader: Loader,
+    loader: loader,
     errorElement: <Error />
   },
   {
