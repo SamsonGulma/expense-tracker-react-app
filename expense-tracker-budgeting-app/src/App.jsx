@@ -2,11 +2,12 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Dashboard from "./assets/allPages/Dashboard";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <root />,
+    element: <Dashboard />
   },
 ]);
 
