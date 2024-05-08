@@ -8,7 +8,6 @@ import { fetchData } from "../assets/helper"
 
 
 //*Data loader: for fetching datas
-// eslint-disable-next-line react-refresh/only-export-components
 export function dashboardLoader() {
   const userName = fetchData("userName");
 
