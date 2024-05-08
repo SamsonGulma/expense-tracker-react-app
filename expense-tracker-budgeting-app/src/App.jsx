@@ -3,17 +3,21 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-//////*routes import starts here!//////
-import Dashboard from "./assets/allPages/Dashboard";
 
-//////*routes import ends here!//////
+//////*routes import
+
+import Dashboard, { dashboardLoader } from "./otherPages/Dashboard";
+import Error from "./otherPages/Error";
+
 
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Dashboard />
+    element: <Dashboard />,
+    loader: dashboardLoader,
+    errorElement: <Error />
   },
 ]);
 
